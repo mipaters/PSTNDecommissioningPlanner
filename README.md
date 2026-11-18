@@ -40,6 +40,6 @@ Scenarios A–F (`/scenarios`) give self-contained persona stories if you want t
 - Synthetic data is generated in TypeScript (`src/data/cos.ts`, seeded RNG) rather than static JSON files, so derived scores stay consistent.
 - Headline numbers come from real model code and may differ slightly from the rounded figures in scenario copy.
 - Swap in Azure OpenAI by replacing `askCopilot` in `src/services/ai.ts` (see `docs/architecture.md`).
-- Deploy to Azure Static Web Apps with `.github/workflows/azure-static-web-apps.yml` (needs the `AZURE_STATIC_WEB_APPS_API_TOKEN` secret).
+- Deploy to Azure Static Web Apps with `.github/workflows/azure-static-web-apps-victorious-beach-046a0290f.yml` (needs the `AZURE_STATIC_WEB_APPS_API_TOKEN_VICTORIOUS_BEACH_046A0290F` secret).
 
 See `docs/architecture.md` and `docs/kpis.md`.
